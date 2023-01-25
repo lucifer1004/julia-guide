@@ -1,0 +1,10 @@
+---
+lang: zh
+---
+
+# 使用 Julia 绘图
+
+Julia 生态中有很多绘图包，这里选择性地介绍一些常用的绘图包。
+
+- [Plots.jl](./plots.ipynb)
+- [Makie.jl](./makie.ipynb)

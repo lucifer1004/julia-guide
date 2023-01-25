@@ -20,14 +20,21 @@ book:
   chapters:
     - index.qmd
 
-    - part: starter.qmd
+    - part: starter/index.qmd
       chapters:
-        - version.qmd 
-        - installation.qmd
+        - starter/version.qmd 
+        - starter/installation.qmd
+        - starter/environment.qmd
 
-    - part: 应用场景
+    - part: plotting/index.qmd
       chapters: 
-        - plotting.qmd
+        - plotting/plots.ipynb
+        - plotting/makie.ipynb
+
+    - part: 其他
+      chapters: 
+        - misc/hpc.qmd
+
     - summary.qmd
     - references.qmd
 
@@ -38,3 +45,4 @@ format:
     theme: cosmo
   pdf:
     documentclass: ctexbook
+    pdf-engine: tectonic

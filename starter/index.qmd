@@ -6,6 +6,6 @@ lang: zh
 
 刚刚接触 Julia？让我们首先正确地配置 Julia 环境：
 
-- [选择一个 Juila 版本](./version.html)
-- [安装 Julia](./installation.html)
+- [选择一个 Juila 版本](./version.qmd)
+- [安装 Julia](./installation.qmd)
 
