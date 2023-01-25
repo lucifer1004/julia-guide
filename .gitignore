@@ -2,3 +2,5 @@
 /.quarto/
 /.vscode/
 /_book/
+.vercel
+.vercelignore
