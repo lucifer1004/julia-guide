@@ -1,0 +1,40 @@
+project:
+  type: book
+
+book:
+  title: "Julia 实践指南"
+  language: "zh"
+  author: "吴自华"
+  reader-mode: true
+
+  page-footer:
+    left: |
+      《Julia 实践指南》采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 协议授权
+    right: |
+      基于 <a href="https://quarto.org/">Quarto</a> 构建
+  cover-image: cover.png
+  favicon: logo.png
+  repo-url: https://github.com/lucifer1004/julia-guide
+  repo-branch: main
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+
+    - part: starter.qmd
+      chapters:
+        - version.qmd 
+        - installation.qmd
+
+    - part: 应用场景
+      chapters: 
+        - plotting.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: ctexbook

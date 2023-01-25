@@ -1,0 +1,35 @@
+---
+lang: zh
+jupyter: julia-1.8
+execute:
+  cache: true
+---
+
+# 使用 Julia 绘图
+
+```{julia}
+#| code-fold: true
+#| code-summary: "本节运行环境配置"
+
+using Plots: Plots
+using CairoMakie: CairoMakie
+```
+
+## 使用 Plots 绘图
+
+```{julia}
+#| label: plots-basic-plot
+#| fig-cap: "使用 Plots 绘制折线图（后端为 GR）"
+
+Plots.plot(1:10, rand(10))
+```
+
+## 使用 Makie 绘图
+
+```{julia}
+#| label: cairo-makie-basic-plot
+#| fig-cap: "使用 Makie 绘制折线图（后端为 CairoMakie）"
+
+CairoMakie.lines(1:10, rand(10))
+```
+

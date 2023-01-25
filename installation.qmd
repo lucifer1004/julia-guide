@@ -1,0 +1,37 @@
+---
+lang: zh
+---
+
+# 安装 Julia
+
+## 基于二进制文件安装
+
+最直接的方式是在 Julia 语言官网的[下载页面](https://julialang.org/downloads/)下载对应的二进制文件，然后进行安装。
+
+## Julia 多版本管理
+
+### jill
+
+[jill](https://github.com/johnnychen94/jill.py) 是由 [陈久宁](https://github.com/johnnychen94) 基于 Python 开发的 Julia 多版本管理工具，支持 Windows、Linux、macOS 等操作系统。
+
+在已经安装了 Python 的情况下，可以通过以下命令安装 jill：
+
+```bash
+python -m pip install jill --user -U
+```
+
+### juliaup
+
+[juliaup](https://github.com/JuliaLang/juliaup) 是由 [Julia 社区](https://github.com/JuliaLang)基于 Rust 开发的 Julia 多版本管理工具，支持 Windows、Linux、macOS 等操作系统。
+
+#### Windows 安装 juliaup
+
+```powershell
+winget install julia -s msstore
+```
+
+#### Linux 和 macOS 安装 juliaup
+
+```bash
+curl -fsSL https://install.julialang.org | sh
+```
