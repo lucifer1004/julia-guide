@@ -8,3 +8,4 @@ Julia 生态中有很多绘图包，这里选择性地介绍一些常用的绘�
 
 - [Plots.jl](./plots.ipynb)
 - [Makie.jl](./makie.ipynb)
+- [Gadfly.jl](./gadfly.ipynb)

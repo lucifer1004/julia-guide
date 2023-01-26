@@ -40,6 +40,7 @@ book:
       chapters: 
         - plotting/plots.ipynb
         - plotting/makie.ipynb
+        - plotting/gadfly.ipynb
 
     - part: 其他
       chapters: 
