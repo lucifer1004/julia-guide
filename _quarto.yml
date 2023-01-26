@@ -42,6 +42,14 @@ book:
         - plotting/makie.ipynb
         - plotting/gadfly.ipynb
 
+    - part: interoperability/index.qmd
+      chapters:
+        - interoperability/c.ipynb
+        - interoperability/fortran.qmd
+        - interoperability/python.qmd
+        - interoperability/r.qmd
+        - interoperability/rust.qmd
+
     - part: 其他
       chapters: 
         - misc/hpc.qmd
