@@ -1,0 +1,13 @@
+---
+lang: zh
+---
+
+# 写出优雅的 Julia 代码
+
+- [项目结构](./structure.qmd)
+- [代码风格](./style.qmd)
+- [阅读优秀的代码](./reading.qmd)
+- [文档](./documentation.qmd)
+- [测试](./testing.qmd)
+- [日志](./logging.qmd)
+- [选择合适的许可](./license.qmd)

@@ -3,3 +3,43 @@ lang: zh
 ---
 
 # 配置 Julia 开发环境
+
+理论上说，任何具有文本编辑功能的软件都可以用于 Julia 开发，但不同软件对于 Julia 的支持程度存在差异，选择一个合适的开发环境可以让我们事半功倍。
+
+## Visual Studio Code (VSCode)
+
+目前，VSCode 是进行 Julia 开发的最佳选择之一。[Julia for Visual Studio Code](https://www.julia-vscode.org/) 插件提供了对 Julia 开发的全面支持。
+
+## Jupyter Notebook
+
+[IJulia.jl](https://github.com/JuliaLang/IJulia.jl) 提供了适用于 Jupyter 的 Julia 内核。对于习惯使用 Jupyter Notebook 的用户来说，这是一个很好的选择。
+
+## Pluto.jl
+
+[Pluto.jl](https://github.com/fonsp/Pluto.jl) 是由 [Fons van der Plas](https://github.com/fonsp) 等开发的反应式（Reactive）笔记本。与 Jupyter Notebook 的最大区别在于，Pluto.jl 会计算出代码单元之间的依赖关系，并在任一代码单元发生变更之后，重新计算所有依赖于该代码单元的代码单元。这一特性使得 Pluto.jl 更适合于交互式的数据分析和可视化。
+
+Pluto.jl 同样可以用作 Julia 开发环境，像 [Promises.jl](https://github.com/fonsp/Promises.jl) 这个包就是使用 Pluto.jl 进行开发的。不过，由于 Pluto.jl 在多文件管理方面的能力还不够强，它更适合那种由单个或少量文件构成的小型项目。
+
+## Vim
+
+[julia-vim](https://github.com/JuliaEditorSupport/julia-vim) 项目为 Vim/NeoVim 提供了对 Julia 的支持。这个项目处于良好的维护中，如果喜欢 Vim，可以考虑使用它作为 Julia 开发环境。
+
+## Emacs
+
+[julia-emacs](https://github.com/JuliaEditorSupport/julia-emacs) 项目为 Emacs 提供了对 Julia 的支持。这个项目处于良好的维护中，如果喜欢 Emacs，可以考虑使用它作为 Julia 开发环境。
+
+## Atom
+
+::: {.callout-warning}
+Atom 已经停止开发（参见[这篇文章](https://github.blog/2022-06-08-sunsetting-atom/)），因此不推荐使用它作为 Julia 开发环境。
+:::
+
+一些过时的资料可能会推荐使用 Atom 编辑器以及 Juno 插件来进行 Julia 开发。是的，Juno 曾经是功能最全面和最完善的 Julia 开发环境，但随着 Atom 的没落，Juno 开发团队已经转向了 VSCode（参见[这里](https://docs.junolab.org/stable/#The-Juno-IDE-Documentation)）。因此，不推荐使用 Atom 作为 Julia 开发环境。
+
+## JetBrains 系列
+
+::: {.callout-warning}
+JetBrains 系列缺乏对 Julia 的支持，因此不推荐使用它们作为 Julia 开发环境。
+:::
+
+JetBrains 系列的 IDE（集成开发环境）包括了 IntelliJ IDEA、PyCharm、WebStorm、RubyMine、AppCode、CLion、GoLand、DataGrip、Rider 等，这些 IDE 都是非常优秀的开发工具，但遗憾的是，上述软件目前都没有提供对 Julia 的官方支持。社区确实有一个 [Julia 插件](https://plugins.jetbrains.com/plugin/10413-julia)，但由于缺乏维护，这一插件现在已经几乎不能再正常使用。

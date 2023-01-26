@@ -26,6 +26,16 @@ book:
         - starter/installation.qmd
         - starter/environment.qmd
 
+    - part: style/index.qmd
+      chapters:
+        - style/structure.qmd
+        - style/style.qmd
+        - style/reading.qmd
+        - style/documentation.qmd
+        - style/testing.qmd
+        - style/logging.qmd
+        - style/license.qmd
+
     - part: plotting/index.qmd
       chapters: 
         - plotting/plots.ipynb
