@@ -1,6 +1,11 @@
+/.cache/
 /.jupyter_cache/
 /.quarto/
 /.vscode/
 /_book/
-.vercel
-.vercelignore
+/build/
+/.vercel
+/.vercelignore
+*.so
+*.dll
+*.dylib
