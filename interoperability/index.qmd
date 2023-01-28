@@ -7,7 +7,7 @@ lang: zh
 这是一个编程语言层出不穷的时代。很多时候，我们需要协同使用多种语言来完成一项任务。在这一部分中，我们将介绍 Julia 与一些常见语言的互操作。
 
 - [C](./c/index.ipynb)
-- [Fortran](./fortran.qmd)
+- [Fortran](./fortran/index.ipynb)
 - [Python](./python.qmd)
 - [R](./r.qmd)
 - [Rust](./rust.qmd)

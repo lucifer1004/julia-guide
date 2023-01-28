@@ -9,3 +9,5 @@
 *.so
 *.dll
 *.dylib
+*.o
+*.mod
