@@ -47,7 +47,7 @@ book:
         - interoperability/c/index.ipynb
         - interoperability/fortran/index.ipynb
         - interoperability/python.ipynb
-        - interoperability/r.qmd
+        - interoperability/r.ipynb
         - interoperability/rust.qmd
 
     - part: 其他
