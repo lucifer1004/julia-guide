@@ -1,5 +1,0 @@
----
-lang: zh
----
-
-# Julia 与 Python 的互操作

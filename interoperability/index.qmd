@@ -8,6 +8,6 @@ lang: zh
 
 - [C](./c/index.ipynb)
 - [Fortran](./fortran/index.ipynb)
-- [Python](./python.qmd)
+- [Python](./python.ipynb)
 - [R](./r.qmd)
 - [Rust](./rust.qmd)

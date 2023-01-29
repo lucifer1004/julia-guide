@@ -1,13 +1,16 @@
 /.cache/
-/.jupyter_cache/
 /.quarto/
 /.vscode/
 /_book/
 /build/
 /.vercel
 /.vercelignore
+.jupyter_cache/
 *.so
 *.dll
 *.dylib
 *.o
 *.mod
+.CondaPkg
+.Rproj.user
+*_files

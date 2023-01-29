@@ -46,7 +46,7 @@ book:
       chapters:
         - interoperability/c/index.ipynb
         - interoperability/fortran/index.ipynb
-        - interoperability/python.qmd
+        - interoperability/python.ipynb
         - interoperability/r.qmd
         - interoperability/rust.qmd
 
